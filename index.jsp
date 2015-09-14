@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: sijaspre
-  Date: 9/14/2015
-  Time: 11:27 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.net.InetAddress" %>
 <html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-Jimmy the Great
-  </body>
+<body>
+<%
+    java.util.Date date = new java.util.Date();
+    InetAddress inetAddress = InetAddress.getLocalHost();
+%>
+The time is 
+<%
+    out.println( date );
+    out.println("<br>Your server's hostname is "+inetAddress.getHostName());
+%>
+<br>
+</body>
 </html>
