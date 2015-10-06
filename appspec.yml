@@ -3,9 +3,7 @@ os: linux
 files:
   - source: /src
     destination: /home/ubuntu/deploy
-
 hooks:
-
   BeforeInstall:
     - location: scripts/project_deploy.sh
     - location: scripts/project_copy_war.sh
