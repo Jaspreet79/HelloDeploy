@@ -6,9 +6,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
-  <spring:url value="/resources/img/hpe_logo.png" var="hpeImg" />
-  <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.png">
-  <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="/resources/img/hpe_logo.png">
+  <link href="${pageContext.request.contextPath}/resources/img/hpe_logo.png">
 
   <style>
   body.loading {margin: 0px; width: 100vw; height: 100vw; background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc);}
