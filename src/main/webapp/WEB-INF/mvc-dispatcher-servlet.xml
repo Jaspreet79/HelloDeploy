@@ -20,7 +20,7 @@
 	</bean>
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<mvc:resources mapping="/resources/**"
-               location="/, classpath:/WEB-INF/public-resources/"
+               location="/resources/"
                cache-period="10000" />
 
 </beans>
