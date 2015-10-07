@@ -5,13 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.png">
-  <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="img/mobile-app-icon.png">
-  <link id="themeStyles5" rel="stylesheet" href="nmc-maps-client/css/mapview.css">
-  <link id="themeStyles6" rel="stylesheet" href="nmc-widgets/css/wheeldiagram.css">
-  <link id="themeStyles7" rel="stylesheet" href="nmc-widgets/css/loomdiagram.css">
-  <script type="text/javascript" src="dojo/dojo.js"></script>
-  <script type="text/javascript" src="nmc-maps-client/Maps.js"></script>
-  <script type="text/javascript" src="nmc-widgets/Widgets.js"></script>
+  <link rel="apple-touch-icon" sizes="192x192" type="image/png" href="img/hpe_logo.png">
+
   <style>
   body.loading {margin: 0px; width: 100vw; height: 100vw; background-image: radial-gradient(circle at 50% 15%, #fff, #fff 30%, #ccc);}
   body.loading #logo {display: block; margin: 10vh auto;}
